@@ -4,7 +4,7 @@ class Ball {
             'restitution':0.8,
             'friction': 0,
             'airResistance' : 0,
-            'density':1.0,
+            'density':1.75,
             'isStatic' : false,
         }
         this.body = Bodies.circle(x,y,radius, options);
